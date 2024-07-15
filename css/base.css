@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+
+.footer {
+    font-family: "Apple Braille", Arial, Verdana, sans-serif;
+    font-size: small;
+    box-sizing: border-box;
+    align-content: center;
+}
+
+body {
+    font-family: "Apple Braille", Arial, Verdana, sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10px;
+    font-size: large;
+    text-align: justify;
+    text-justify: inter-word;
+}
+h1, h2, h3 {
+    font-family: "Apple Braille",Arial, Verdana, sans-serif;
+    position: page;
+    margin: 0 auto;
+    color: darkblue;         /*koler naglowka*/
+    text-align: center;     /*wysrodkowanie naglowka*/
+    font-size: medium;
+}
+
+.port {
+    text-align: center;
+    font-size: 45px;
+    color: darkblue;
+}
+
+.port2 {
+    text-align: center;
+    font-size: 35px;
+    color: darkblue;
+}
+
+.menu_obok {
+    box-sizing: border-box;
+    border-bottom-style: double;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.menu_obok a:not(:last-child)::after {
+    content: "||";
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.menu_obok a, .menu_obok a:visited, .menu_obok a:hover, .menu_obok a:active, .menu_obok a:focus {
+    text-decoration: none; /* Usuwa podkreślenie */
+    color: black; /* Ustawia stały kolor tekstu, możesz wybrać inny kolor */
+}
+
+.ikonki {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.logo {
+    background-position: bottom;
+}
+
+.custom-div {
+
+      color: #222222;
+      font-family: "Apple Braille", Arial, Verdana, sans-serif;
+      padding: 20px; /* Wewnętrzny odstęp */
+      margin: 20px; /* Zewnętrzny odstęp */
+      text-align: justify; /* Wyjustowany tekst */
+    }
+
+.container {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.container img {
+    max-width: 50%; /* Maksymalna szerokość obrazka */
+    height: auto;
+    margin-right: 20px;
+}
+
+.container p {
+    flex-grow: 1;
+    flex-basis: 0; /* Pozwala tekście na elastyczne dopasowanie */
+    margin: 0; /* Usuwa domyślne marginesy */
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .container img {
+        max-width: 30%; /* Zmniejsza szerokość obrazka na mniejszych ekranach */
+    }
+
+    .container p {
+        font-size: smaller; /* Opcjonalne zmniejszenie rozmiaru czcionki na mniejszych ekranach */
+    }
+}
+
+a.no-underline, a.no-underline:visited, a.no-underline:hover, a.no-underline:active, a.no-underline:focus {
+    text-decoration: none;
+    color: black; /* lub jakiś inny kolor, który chcesz użyć */
+}
+
+

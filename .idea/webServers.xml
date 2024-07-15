@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5077f225-4af6-4891-8277-611c1bfcbf92" name="prd1">
+        <fileTransfer rootFolder="/var/www/learncpp.pl" accessType="SFTP" host="57.129.16.48" port="22" sshConfigId="7f9f4232-28c2-4856-8b7b-e46e41dc6e4c" sshConfig="ubuntu@57.129.16.48:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" isUseSudo="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
