@@ -9,6 +9,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="dcf4973a-965e-4034-aa8e-bce01a384fe9" name="web1">
+        <fileTransfer rootFolder="/var/www/learnjava.pl" accessType="SFTP" host="5.135.148.4" port="22" sshConfigId="834a0b1c-308b-47fb-bfaa-b5ffbb0b77e9" sshConfig="ubuntu@5.135.148.4:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" isUseSudo="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>
